@@ -17,8 +17,10 @@ $(document).ready(function(){
     times.addEventListener('click', function(){
         mobileNav.classList.remove('open');
     });
+
+
     
-     const navLink = document.querySelectorAll(".nav-link");
+    const navLink = document.querySelectorAll(".nav-link");
 
     navLink.forEach(n => n.addEventListener("click", closeMenu));
 
